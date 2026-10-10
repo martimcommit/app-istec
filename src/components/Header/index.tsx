@@ -4,7 +4,7 @@ type HeaderProps = {
   title: string;
   subtitle?: string;
 };
-const Header = ({ title, subtitle = "Bla bla bla" }: HeaderProps) => {
+const Header = ({ title, subtitle = "pagina do usro" }: HeaderProps) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>{title}</Text>
